@@ -354,6 +354,16 @@ a {
     .hebergementpopulaire {
         flex-direction: column-reverse;
        }
+    .cardpopulaires {
+        flex-direction: row;
+    }
+    .ft-main {
+        justify-content: space-evenly;
+    }
+    .ft-main-item {
+        padding: 1.25rem;
+        min-width: 12.5rem;
+      }
 
    
 }
@@ -434,6 +444,9 @@ a {
         .containercard2 {
             flex-wrap: wrap;
         }
+        .ft-main{
+            justify-content: space-evenly;
+               }
 
 
 }
