@@ -217,16 +217,13 @@ a {
 
 .cardpopulaires{
     display: flex;
+    flex-direction: column;
 }
 .cardpop {
     display: flex;
-    flex-direction: row;
     background: white;
     border-radius: 20px;
     border : 3px solid white;
-    width: 450px;
-    height: 155px;
-    margin:0 20px;
 }
 .card-imagepop {
     border-top-left-radius: 20px;
