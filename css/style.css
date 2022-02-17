@@ -25,7 +25,7 @@ a {
 }
 
 .container {
-    max-width: 1450px;
+    /* max-width: 1450px; */
     margin: 0 auto; 
     overflow: auto;
     padding: 0;
@@ -185,11 +185,9 @@ a {
     padding: 20px;
     background: var(--background);
     border-radius: 20px;
-    height: 730px;
 
 }
 .containercard2{
-    width: 950px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -303,6 +301,7 @@ a {
 
 .Activitymar {
     margin: 0 auto;
+    max-width: 1450px;
     padding-top: 50px;
     height: 500px;
     display: flex;
@@ -355,7 +354,12 @@ a {
         flex-direction: column-reverse;
        }
     .cardpopulaires {
-        flex-direction: row;
+        flex-direction: column;
+    }
+    .populaire {
+        width: 100%;
+        margin: 0;
+        border-radius: 0px;
     }
     .ft-main {
         justify-content: space-evenly;
@@ -364,6 +368,18 @@ a {
         padding: 1.25rem;
         min-width: 12.5rem;
       }
+    .containercard2 {
+        flex-direction: column;
+    }
+    .containercard1 {
+        background: none;
+    }
+    .card {
+        width: 100%;
+    }
+    .cardpop {
+        width: 100%;
+    }
 
    
 }
@@ -440,6 +456,11 @@ a {
         .hebergementpopulaire {
          flex-direction: column-reverse;
         }
+        .populaire {
+            width: 100%;
+            margin: 0;
+            border-radius: 0px;
+        }
     
         .containercard2 {
             flex-wrap: wrap;
@@ -447,6 +468,13 @@ a {
         .ft-main{
             justify-content: space-evenly;
                }
+        .containercard1 {
+            border-radius: 0px;
+            background: none;
+        }
+        .card {
+            width: 100%;
+        }
 
 
 }
