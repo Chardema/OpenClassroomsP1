@@ -355,6 +355,7 @@ a {
        }
     .cardpopulaires {
         flex-direction: column;
+        width: 100%;
     }
     .populaire {
         width: 100%;
@@ -481,6 +482,9 @@ a {
         }
         .buttonfilter {
             font-size: 10px;
+        }
+        .cardpopulaires {
+            width: 100%;
         }
 
 
