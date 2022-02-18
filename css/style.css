@@ -192,6 +192,7 @@ a {
     padding: 20px;
     background: var(--background);
     border-radius: 20px;
+    width: 75%;
 
 }
 .containercard2{
@@ -207,7 +208,7 @@ a {
 }
 .populaire
 {
-    width: 460px ;
+    width: 35%;
     margin-left: 30px;
     padding: 20px;
     display: flex;
@@ -418,6 +419,7 @@ a {
 }
 
 /*Footer*/
+
 .ft-main {
     padding-top: 15px;
     padding: 1.25rem 1.875rem;
@@ -471,6 +473,7 @@ a {
 
     .containercard1 {
         margin-top: 30px;
+        width: 100%;
     }
     .cardpop {
         width: 33%;
