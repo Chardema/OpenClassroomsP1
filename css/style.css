@@ -14,6 +14,11 @@
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
+
+}
+.containergen{
+    margin-left: 50px;
+    margin-right: 30px;
 }
 ul{
     list-style-type: none;
@@ -178,7 +183,9 @@ a {
     padding: 20px;
 }
 .showmorebtn{
-    padding: 20px;
+    margin-top: 30px;
+    margin-left: 35px;
+
 }
 
 .containercard1{
@@ -190,14 +197,17 @@ a {
 .containercard2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 0;
     padding: 0;
+}
+.poptext {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .populaire
 {
     width: 460px ;
-    /* height: 730px; */
     margin-left: 30px;
     padding: 20px;
     display: flex;
@@ -219,36 +229,27 @@ a {
 }
 .cardpop {
     display: flex;
+    height: 200px;
+    width: 100%;
     background: white;
     border-radius: 20px;
     margin-bottom: 20px;
     border : 3px solid white;
 }
+.cardcontentpop{
+    flex-direction: column;
+    width: 60%;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
 .card-imagepop {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 145px;
-    width: 200px;
+    width: 40%;
     margin: 2px;
     overflow: hidden;
 }
-.card-imagepopspe{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    height: 145px;
-    margin: 2px;
-    width: 200px;
-    overflow: hidden; 
-}
-
-.card-imagepopspe img{
-    width: 100% ;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-
-}
-
 .card-imagepop img{
     width: 100% ;
     height: 100%;
@@ -263,9 +264,9 @@ a {
     background: white;
     border-radius: 20px;
     border : 3px solid white;
-    width: 295px;
+    width: 30%;
     height: 250px;
-    margin: 10px;
+    margin: 7px;
 }
 .cardcontent{
     flex-direction: column;
@@ -273,6 +274,8 @@ a {
     box-sizing: border-box;
     font-size: 13px;
 }
+
+
 
 .card-image {
     height: 130px;
@@ -288,7 +291,6 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
-
 }
 
 .fa-star{
@@ -300,27 +302,121 @@ a {
 /*Activité à marseille*/
 
 .Activitymar {
-    margin: 0 auto;
-    width:100%;
-    padding-top: 50px;
+    height: 550px;
+    max-width: 1450px;
+    max-width: 1450px;
+    margin: 15px auto;
+}
+
+.regroupcard {
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.cardcalport img {
-    height: 700px;
 
+.card-imageportcal {
+    height: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.card-imageportcal img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardcontentportcal{
+    flex-direction: column;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+    height: 10%;
+}
+.cardcalport{
+    height: 100%;
+    width: 25%;
+    margin-right: 25px;
+    background-color:white ;
+    border: 5px solid #FCFDFC;
+    border-radius: 15px;
+}
+.cardforioul{
+    width: 25%;
+    height: 100%;
+    margin-right: 25px;
+    border: 5px solid #FCFDFC;
+
+}
+.cardfort{
+    height: 60%;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-imagefort {
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.card-imagefort img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cardfrioul{
+    margin-top: 15px;
+    height: 15%;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.carddlg{
+    height: 40%;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-imagedlg {
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.card-imagedlg img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardlongchamp{
+    margin-top: 70px;
+    height: 40%;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-imagelongchamp {
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.card-imagelongchamp img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cardforioul2{
+    width: 25%;
 }
 .cardactivity{
     height: 500px;
     display: flex;
     align-items: center;
 }
-.cardfrioul{
-    height: 200px;
 
-}
 /*Footer*/
 .ft-main {
     padding-top: 15px;
@@ -354,13 +450,15 @@ a {
         flex-direction: column-reverse;
        }
     .cardpopulaires {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
+        height: 200px;
+        justify-content: space-between;
     }
     .populaire {
         width: 100%;
         margin: 0;
-        border-radius: 0px;
+        border-radius: 20px;
     }
     .ft-main {
         justify-content: space-evenly;
@@ -369,17 +467,20 @@ a {
         padding: 1.25rem;
         min-width: 12.5rem;
       }
-    .containercard2 {
-        flex-direction: column;
-    }
+    
+
     .containercard1 {
-        background: none;
-    }
-    .card {
-        width: 100%;
+        margin-top: 30px;
     }
     .cardpop {
-        width: 100%;
+        width: 33%;
+        height: 80%;
+    }
+    .card-imagepop {
+        width: 70%;
+    }
+    .card-imagepopspe {
+        width: 70%;
     }
 
    
@@ -457,6 +558,8 @@ a {
         .hebergementpopulaire {
          flex-direction: column-reverse;
         }
+
+     /* dispositon mobile partie populaire */ 
         .populaire {
             width: 100%;
             margin: 0;
@@ -477,14 +580,15 @@ a {
             width: 100%;
             background: rgba(236, 229, 229, 0.133);
         }
-        .Activitymar {
-            flex-direction: column;
-        }
-        .buttonfilter {
-            font-size: 10px;
-        }
         .cardpopulaires {
             width: 100%;
+        }
+        .cardpop{
+            height: 200px;
+        }
+             /* dispositon mobile partie activité */ 
+        .Activitymar {
+            flex-direction: column;
         }
 
 
