@@ -536,7 +536,7 @@ a {
             display: none;
         }
         .searchbox .display-hide{
-            /*display: inline-block;*/
+            display: inline-block;
             width: 30%;
     
         }
@@ -593,6 +593,45 @@ a {
         .Activitymar {
             flex-direction: column;
         }
+        .containergen {
+            margin: 0;
+        }
+        .containercard1 {
+            width: 100%;
+        }
+
+        .Activitymar {
+            height: 1200px;
+        }
+        .regroupcard {
+            flex-direction: column;
+            height: 100%;
+        }
+        .cardcalport {
+            height: 20%;
+            width: 100%;
+        }
+        .cardforioul {
+            height: 40%;
+            width: 100%;
+        }
+        .cardforioul2 {
+            height: 33%;
+            width: 100%;
+        }
+        .card-imageportcal {
+            height: 50%;
+        }
+        .card-imagedlg {
+            height: 50%;
+        }
+        .card-imagefort {
+            height: 50%;
+        }
+        .card-imagelongchamp {
+            height: 50%;
+        }
+
 
 
 }
