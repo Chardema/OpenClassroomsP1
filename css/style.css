@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
 
+/* Partie générale du site*/
 :root {
     --primary-color : #0065FC;
     --secondary-color : #DEEBFF;
@@ -26,12 +27,10 @@ body {
 ul{
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
     color: #333;
 }
-
 .container {
     max-width: 1450px;
     margin: 0 auto; 
@@ -42,7 +41,8 @@ a {
     height: 100%;
 }
 
-/* Navbar */ 
+/* Navbar */
+
  .Logoimg  img{
     width: 90px;
     height: auto;
@@ -56,7 +56,6 @@ a {
 .navbar a:hover{
     color: var(--primary-color);
 }
-
 .navbar li:hover {
     padding-top: 58px;
     border-top: 3px solid var(--primary-color) ;
@@ -66,21 +65,19 @@ a {
     padding-left :10px; 
     padding-right: 10px;
 }
-
 .navbar ul {
     display: flex;
 }
-
 .navbar a {
     padding: 10px;
     margin: 0 5px;
 }
-
 .navbar .flex {
     justify-content: space-between;
 }
 
-/* Div recherche */ 
+/* Div recherche */
+
 .formsearch{
     display: flex;
     flex-direction: column;
@@ -88,7 +85,6 @@ a {
     margin: 0 auto;
     padding: 0;
 }
-
 .fa-map-marker-alt {
     background-color: var(--background);
     width: 11%;
@@ -128,6 +124,7 @@ button {
 }
 
 /* Filtres */ 
+
 .filtercontainer{
     align-items: center;
     display: flex;
@@ -167,7 +164,7 @@ button {
 }
 
 .buttonfilter:hover{
-    box-shadow: inset 200px 0 0 0 #DDEBFF;
+    box-shadow: inset 330px 0 0 0 #DDEBFF;
 }
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog {
@@ -195,6 +192,7 @@ button {
 }
 
 /* Card*/
+
 .hebergementpopulaire{
     max-width: 1450px;
     display: flex;
@@ -207,15 +205,12 @@ button {
     margin-top: 30px;
     margin-left: 35px;
     cursor: pointer;
-
 }
-
 .containercard1{
     padding: 20px;
     background: var(--background);
     border-radius: 20px;
     width: 75%;
-
 }
 .containercard2{
     display: flex;
@@ -228,8 +223,7 @@ button {
     margin-top: 15px;
     margin-bottom: 10px;
 }
-.populaire
-{
+.populaire{
     width: 35%;
     margin-left: 30px;
     padding: 20px;
@@ -238,14 +232,12 @@ button {
     background: var(--background);
     border-radius: 20px;
 }
-
 .popcharts{
  display: flex;
  justify-content: space-between;
  align-items: center;   
  width: 100%; 
 }
-
 .cardpopulaires{
     display: flex;
     flex-direction: column;
@@ -297,17 +289,6 @@ button {
     box-sizing: border-box;
     font-size: 13px;
 }
-
-.cardcontentactivity {
-    flex-direction: column;
-    padding: 15px 20px;
-    box-sizing: border-box;
-    font-size: 13px;
-
-}
-
-
-
 .card-image {
     height: 130px;
     border-top-left-radius: 20px;
@@ -315,36 +296,19 @@ button {
     margin: 2px;
     overflow: hidden;
 }
-
-.card-imagefrioul {
-    height: 130px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: 2px;
-    overflow: hidden;
-}
-
-.card-imagefrioul img {
-    width: 100% ;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-
 .card-image img{
     width: 100% ;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-
 .fa-star{
     color: var(--primary-color);
 }
 .grey{
     color: var(--secondary-color);
 }
+
 /*Activité à marseille*/
 
 .Activitymar {
@@ -354,12 +318,16 @@ button {
     max-width: 1450px;
     margin: 15px auto;
 }
-
 .regroupcard {
     height: 500px;
     display: flex;
 }
-
+.cardcontentactivity {
+    flex-direction: column;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
 .card-imageportcal {
     height: 90%;
     border-top-left-radius: 15px;
@@ -372,7 +340,6 @@ button {
     object-fit: cover;
     object-position: center;
 }
-
 .cardcontentportcal{
     flex-direction: column;
     margin: 15px;
@@ -394,6 +361,19 @@ button {
     margin-right: 25px;
     border: 5px solid #FCFDFC;
 
+}
+.card-imagefrioul {
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2px;
+    overflow: hidden;
+}
+.card-imagefrioul img {
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .cardfort{
     height: 60%;
@@ -418,7 +398,6 @@ button {
     background-color: white;
     border-radius: 22px;
 }
-
 .carddlg{
     height: 40%;
     background-color: white;
@@ -436,7 +415,6 @@ button {
     object-fit: cover;
     object-position: center;
 }
-
 .cardlongchamp{
     margin-top: 70px;
     height: 40%;
@@ -463,11 +441,8 @@ button {
     display: flex;
     align-items: center;
 }
-/*Footer*/
 
-.footerbooki ul {
-    padding:0;
-}
+/*Footer*/
 
 footer {
     width: 100vw;
@@ -477,24 +452,22 @@ footer {
     margin: 0 auto;
     padding: 35px;
 }
+.footerbooki ul {
+    padding:0;
+}
 .ft-main-item {
     width: 33%;
 }
 
-/*Desktop*/
-@media (max-width: 992px){
-
-}
-
 /*Tablette*/
-@media (max-width: 992px) and (min-width : 768px) {
-    body {
-        /* background-color: red; */
-    }
 
+@media (max-width: 992px) and (min-width : 768px) {
+
+    /*Card Hébergement et populaires*/
+    
     .hebergementpopulaire {
         flex-direction: column-reverse;
-       }
+    }
     .cardpopulaires {
         flex-direction: row;
         width: 100%;
@@ -506,15 +479,6 @@ footer {
         margin: 0;
         border-radius: 20px;
     }
-    .ft-main {
-        justify-content: space-evenly;
-    }
-    .ft-main-item {
-        padding: 1.25rem;
-        min-width: 12.5rem;
-      }
-    
-
     .containercard1 {
         margin-top: 30px;
         width: 100%;
@@ -528,15 +492,17 @@ footer {
     }
     .card-imagepopspe {
         width: 70%;
-    }
-
-   
+    } 
 }
 
 @media (max-width: 768px){
-    body {
-        /* background-color: green; */
+
+    /*modif infos*/
+    .containergen {
+        margin: 0;
     }
+    /*Navbar*/
+
     .container {
         display: inline;
         text-align: center;
@@ -546,15 +512,12 @@ footer {
             margin-left:40px;
             padding: 0px;
         }
-        
         .navbar {
             height: auto;
         }
-    
         .navbar .flex {
             flex-direction: column;
         }
-    
        .navbar li {
            width: 50%;
            border-bottom: 0.5px solid var(--background);
@@ -565,32 +528,28 @@ footer {
             border-bottom: 3px solid var(--primary-color) ;
             padding-bottom: 17px;
         }
-    
         .navbar ul {
             width: 100%;
         }
+
         /* searchbar*/
     
         .formsearch {
             margin-right: 20px;
             margin-left: 20px;
         }
-    
         .mobile-hide {
             display: none;
         }
         .searchbox .display-hide{
             display: inline-block;
             width: 30%;
-    
         }
         .searchbox {
             width: 100%;
         }
-    
         .searchbox input {
             width: 65%;
-    
         }
         .searchbox button {
             width: 17%;
@@ -598,14 +557,16 @@ footer {
             border-radius: 15px;
         }
         .fa-map-marker-alt {
-            width: 12%;
+            width: 15%;
         }
+
+        /*Filterbar*/
+
         .buttonfilter {
             width: 47%;
         }
         .filterbar {
             flex-wrap: wrap;
-    
             margin-left: 10px ;
             width: 100%;
         }
@@ -616,23 +577,26 @@ footer {
             align-self: flex-start;
             margin: 10px;
         }
-        .hebergementpopulaire {
-         flex-direction: column-reverse;
+        .infobulle {
+            margin-left : 10px
         }
 
-     /* dispositon mobile partie populaire */ 
+     /* partie populaire */
+
         .populaire {
             width: 100%;
             margin: 0;
             border-radius: 0px;
         }
-    
+        .hebergementpopulaire {
+            flex-direction: column-reverse;
+        }
+        .containercard1 {
+            width: 100%;
+        }
         .containercard2 {
             flex-wrap: wrap;
         }
-        .ft-main{
-            justify-content: space-evenly;
-               }
         .containercard1 {
             border-radius: 0px;
             background: none;
@@ -647,18 +611,13 @@ footer {
         .cardpop{
             height: 200px;
         }
-             /* dispositon mobile partie activité */ 
+
+     /* dispositon mobile partie activité */ 
+
         .Activitymar {
             flex-direction: column;
             height: auto;
         }
-        .containergen {
-            margin: 0;
-        }
-        .containercard1 {
-            width: 100%;
-        }
-
         .regroupcard {
             flex-direction: column;
             height: auto;
@@ -667,7 +626,6 @@ footer {
             height: 300px;
             width: 100%;
         }
-
         .card-imageportcal {
             height: 70%;
         }
@@ -705,22 +663,19 @@ footer {
         .card-imagedlg {
             height: 70%;
         }
-
         .cardlongchamp {
             height: 300px;
             width: 100%;
             margin: 0;
         }
-
         .card-imagelongchamp {
             height: 70%;
         }
         .cardcontentactivity {
             height:30%;
         }
-        .infobulle {
-            margin-left : 10px
-        }
+        
+        /* Footer */
 
         footer {
             flex-direction: column;
@@ -729,7 +684,4 @@ footer {
             width: 100%;
             margin-top: 30px;
         }
-
-
-
 }
