@@ -270,11 +270,15 @@ button {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
+}
+
+.card-imagepop:hover img {
+    transform: scale(1.5);
 }
 .starpop{
     padding-top: 15px;
 }
-
 .card{
     background: white;
     border-radius: 20px;
@@ -296,11 +300,17 @@ button {
     margin: 2px;
     overflow: hidden;
 }
+.card-image:hover img {
+    transform: scale(1.5);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .card-image img{
     width: 100% ;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
 }
 .fa-star{
     color: var(--primary-color);
@@ -339,6 +349,13 @@ button {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
+}
+
+.card-imageportcal:hover img {
+    transform: scale(1.5);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .cardcontentportcal{
     flex-direction: column;
@@ -374,6 +391,10 @@ button {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
+}
+.card-imagefrioul:hover img {
+    transform: scale(1.5);
 }
 .cardfort{
     height: 60%;
@@ -391,6 +412,10 @@ button {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
+}
+.card-imagefort:hover img{
+    transform: scale(1.5);
 }
 .cardfrioul{
     margin-top: 15px;
@@ -414,6 +439,10 @@ button {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
+}
+.card-imagedlg:hover img{
+    transform: scale(1.5);
 }
 .cardlongchamp{
     margin-top: 70px;
@@ -432,6 +461,10 @@ button {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform .5s ease;
+}
+.card-imagelongchamp:hover img {
+    transform: scale(1.5);
 }
 .cardforioul2{
     width: 25%;
